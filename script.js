@@ -1,5 +1,7 @@
+// Retrieve time 
 document.getElementById("time").innerHTML = date();
 
+// Return date
 function date() {
     var d = new Date(),
       days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];

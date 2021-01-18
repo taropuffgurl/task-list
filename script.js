@@ -9,3 +9,5 @@ function date() {
     return days[d.getDay()] + ',  ' + months[d.getMonth()] + ' ' + d.getDate();
    }
 
+// Create a close button and apend it to each list item 
+var myNodeList = document.getElementsByTagNamr("li");
